@@ -6,8 +6,8 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 import ru.test.numbergenerator.dto.CarNumberDto;
-import ru.test.numbergenerator.exception.NumberRunOutException;
-import ru.test.numbergenerator.service.CarNumberService;
+import ru.test.numbergenerator.exceptions.NumberRunOutException;
+import ru.test.numbergenerator.services.CarNumberService;
 
 @RestController
 @RequestMapping("/number")

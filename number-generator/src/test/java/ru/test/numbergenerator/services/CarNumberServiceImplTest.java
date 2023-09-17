@@ -1,4 +1,4 @@
-package ru.test.numbergenerator.service;
+package ru.test.numbergenerator.services;
 
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
@@ -8,7 +8,7 @@ import org.mockito.junit.jupiter.MockitoExtension;
 import org.mockito.Mock;
 import ru.test.numbergenerator.dto.CarNumberDto;
 import ru.test.numbergenerator.entities.CarNumber;
-import ru.test.numbergenerator.exception.NumberRunOutException;
+import ru.test.numbergenerator.exceptions.NumberRunOutException;
 import ru.test.numbergenerator.repositories.CarNumberJpaRepository;
 
 import java.util.*;

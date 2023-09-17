@@ -1,4 +1,4 @@
-package ru.test.numbergenerator.exception;
+package ru.test.numbergenerator.exceptions;
 
 public class NumberRunOutException extends Exception{
     public NumberRunOutException(String message) {

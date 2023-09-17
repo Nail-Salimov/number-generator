@@ -1,11 +1,11 @@
-package ru.test.numbergenerator.service;
+package ru.test.numbergenerator.services;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.util.Pair;
 import org.springframework.stereotype.Service;
 import ru.test.numbergenerator.dto.CarNumberDto;
 import ru.test.numbergenerator.entities.CarNumber;
-import ru.test.numbergenerator.exception.NumberRunOutException;
+import ru.test.numbergenerator.exceptions.NumberRunOutException;
 import ru.test.numbergenerator.repositories.CarNumberJpaRepository;
 
 import java.util.LinkedList;

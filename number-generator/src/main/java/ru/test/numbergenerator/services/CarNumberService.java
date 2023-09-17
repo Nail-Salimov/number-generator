@@ -1,7 +1,7 @@
-package ru.test.numbergenerator.service;
+package ru.test.numbergenerator.services;
 
 import ru.test.numbergenerator.dto.CarNumberDto;
-import ru.test.numbergenerator.exception.NumberRunOutException;
+import ru.test.numbergenerator.exceptions.NumberRunOutException;
 
 public interface CarNumberService {
 
